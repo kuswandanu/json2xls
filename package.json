@@ -10,6 +10,6 @@
   "author": "Rikkert Koppes <rikkert@rikkertkoppes.com",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "excel-export": "~0.3.11"
+    "node-excel-export": "~1.4.2"
   }
 }
