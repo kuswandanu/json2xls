@@ -26,7 +26,7 @@ Use to save as file:
 
     fs.writeFileSync(__dirname + '/output.xlsx', xls, 'binary');
 
-Or use as express middleware. It adds a convenience `xls` method to the response object to immediately output an excel as download.
+Or use as restify or express middleware. It adds a convenience `xls` method to the response object to immediately output an excel as download.
 
     var json2xls = require('../lib/json2xls');
     var restify = require('restify');
